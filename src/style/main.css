@@ -17,6 +17,7 @@ body {
 .header{
   background-color: yellow;
   height: 10vh;
+  padding: 0 50px;  /*0:위아래 50px:좌우*/
 }
 /* 비주얼 */
 .visual{
