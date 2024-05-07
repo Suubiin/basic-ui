@@ -1,7 +1,7 @@
 /* 텍스트 링크 모음 */
 
 :root{
-  --base-font-family: "SUIT Variable", san-serif;
+  --base-font-family: "SUIT Variable", sans-serif;
 }
 .member-service{
   --font-size: 0.875rem;
