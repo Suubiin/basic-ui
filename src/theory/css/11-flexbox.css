@@ -1,5 +1,10 @@
 @import url(/theory/css/default.css);
 
+body{
+  /* font-size: clamp(0.75rem, 3vw, 2.25rem); */
+
+}
+
 .container{
   display: flex;
   flex-flow: column nowrap;
@@ -19,6 +24,9 @@
 .container-flude{
   width: 80%;
   margin: 0 auto;
+  /* max-width: 1200px;
+  min-width: 500px; */
+  /* width: clamp(500px, 80%, 800px); */
 }
 
 .container-fixed{
@@ -29,6 +37,33 @@
 .header{
   height: 70px;
   block-size: 70px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  /* gap: 아이템과 아이템 사이 */
+  gap: 20px;
+  padding: 0 20px;
+
+  div{
+    background-color: #fff;
+    box-shadow: 0 0 0 1px #000;
+  }
+}
+
+.logo{
+  /* margin-right: auto;
+  margin-inline-end: auto; */
+  flex-shrink: 0;
+}
+
+.search{
+  flex-basis: 500px;
+  flex-grow: 1;
+}
+
+.login{
+  order: 1;
+  flex-shrink: 0;
 }
 
 .navigation{
