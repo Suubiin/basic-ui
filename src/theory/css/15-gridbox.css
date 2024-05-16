@@ -72,6 +72,7 @@ body{
   margin: 0 auto;
   width: 1000px;
   display: grid;
+  /* repeat(6, 100px) = 100px, 100px, 100px, 100px, 100px, 100px */
   grid-template-columns: repeat(6, 100px);
   grid-auto-rows: minmax(50px, auto);
   grid-auto-flow: dense;

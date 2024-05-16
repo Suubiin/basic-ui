@@ -6,6 +6,7 @@ body{
   border-radius: 0.25rem;
   border: 1px solid #aaa;
   display: inline-grid;
+  /* grid-template-columns: 자식 요소 열 크기 지정 / fr = % */
   grid-template-columns: 1fr;
   align-items: center;
 
