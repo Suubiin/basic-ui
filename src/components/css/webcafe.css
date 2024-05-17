@@ -335,7 +335,7 @@
 }
 
 /* 스프라이트 이미지 */
-.sprite{
+/* .sprite{
   height: 60px;
   background-color: hotpink;
   background-image: url(./../../images/sprite_main.png);
@@ -345,4 +345,4 @@
 
 .news .sprite{
   background-position: 0 -230px;
-}
+} */
